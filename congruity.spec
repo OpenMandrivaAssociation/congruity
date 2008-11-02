@@ -35,6 +35,7 @@ GenericName=Harmony remote programmer
 Comment=Program a Harmony remote
 Exec=%{_bindir}/congruity %%f
 Type=Application
+Icon=system_section
 Categories=Utility;Electronics;
 MimeType=application/x-easyzapper-hex;application/x-easyzapper-upgrade;
 EOF
@@ -45,6 +46,7 @@ Name=Logitech Harmony configuration
 Comment=Configure a Harmony remote
 Exec=www-browser http://members.harmonyremote.com/
 Type=Application
+Icon=web_browser_section
 Categories=Utility;Electronics;
 EOF
 
