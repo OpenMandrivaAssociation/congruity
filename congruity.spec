@@ -1,6 +1,6 @@
 
 %define name	congruity
-%define version	12
+%define version	13
 %define rel	1
 
 Summary:	Logitech Harmony remote programmer GUI
@@ -11,7 +11,6 @@ Release:	%mkrel %{rel}
 License:	GPLv3+ and CC-BY-SA
 URL:		http://congruity.sourceforge.net/
 Source:		http://downloads.sourceforge.net/congruity/congruity-%{version}.tar.bz2
-Patch0:		congruity-12-desktop.patch
 BuildRoot:	%{_tmppath}/%{name}-root
 Group:		System/Configuration/Hardware
 Requires:	python-libconcord
@@ -23,7 +22,6 @@ remote.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %install
 rm -rf %{buildroot}
