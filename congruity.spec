@@ -1,6 +1,6 @@
 
 %define name	congruity
-%define version	13
+%define version	14
 %define rel	1
 
 Summary:	Logitech Harmony remote programmer GUI
@@ -14,6 +14,7 @@ Source:		http://downloads.sourceforge.net/congruity/congruity-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-root
 Group:		System/Configuration/Hardware
 Requires:	python-libconcord
+Requires:	wxPythonGTK
 BuildArch:	noarch
 
 %description
