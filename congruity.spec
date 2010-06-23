@@ -37,6 +37,7 @@ Exec=www-browser http://members.harmonyremote.com/
 Type=Application
 Icon=web_browser_section
 Categories=Utility;Electronics;
+StartupNotify=false
 EOF
 
 %clean
