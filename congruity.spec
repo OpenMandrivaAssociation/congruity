@@ -1,14 +1,13 @@
 
 %define name	congruity
-%define version	14
+%define version	15
 %define rel	1
 
 Summary:	Logitech Harmony remote programmer GUI
 Name:		%{name}
 Version:	%{version}
 Release:	%mkrel %{rel}
-# remote.png is CC-BY-SA, see LICENSE.txt:
-License:	GPLv3+ and CC-BY-SA
+License:	GPLv3+
 URL:		http://congruity.sourceforge.net/
 Source:		http://downloads.sourceforge.net/congruity/congruity-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-root
