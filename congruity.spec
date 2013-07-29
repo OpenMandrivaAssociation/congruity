@@ -1,10 +1,10 @@
 Summary:	Logitech Harmony remote programmer GUI
 Name:		congruity
-Version:	16
+Version:	17
 Release:	1
 License:	GPLv3+
 URL:		http://congruity.sourceforge.net/
-Source:		https://sourceforge.net/projects/congruity/files/congruity/16/%{name}-%{version}.tar.bz2
+Source:		https://sourceforge.net/projects/congruity/files/congruity/17/%{name}-%{version}.tar.bz2
 Group:		System/Configuration/Hardware
 Requires:	python-libconcord
 Requires:	wxPythonGTK
@@ -68,5 +68,6 @@ EOF
 * Sun Nov 02 2008 Anssi Hannula <anssi@mandriva.org> 9-1mdv2009.1
 + Revision: 299208
 - initial Mandriva release
+
 
 
