@@ -41,6 +41,8 @@ EOF
 %{_datadir}/applications/congruity.desktop
 %{_datadir}/applications/mandriva-harmony-www.desktop
 %{_mandir}/man1/congruity*
+%{_datadir}/applications/mhgui.desktop
+%{_mandir}/man1/mhgui.1*
 
 
 
