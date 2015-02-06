@@ -2,7 +2,7 @@ Summary:	Logitech Harmony remote programmer GUI
 
 Name:		congruity
 Version:	18
-Release:	1
+Release:	2
 License:	GPLv3+
 URL:		http://congruity.sourceforge.net/
 Source:		http://sourceforge.net/projects/congruity/files/congruity/18/%{name}-%{version}.tar.bz2
