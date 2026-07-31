@@ -1,11 +1,11 @@
 Summary:	Logitech Harmony remote programmer GUI
 
 Name:		congruity
-Version:	18
-Release:	2
+Version:	21
+Release:	1
 License:	GPLv3+
 URL:		https://congruity.sourceforge.net/
-Source:		http://sourceforge.net/projects/congruity/files/congruity/18/%{name}-%{version}.tar.bz2
+Source:		http://sourceforge.net/projects/congruity/files/congruity/21/%{name}-%{version}.tar.bz2
 Group:		System/Configuration/Hardware
 Requires:	python-libconcord
 Requires:	wxPythonGTK
